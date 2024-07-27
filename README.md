@@ -9,9 +9,9 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 
 - After Calculating the GPA for the two (2) semesters, click "Calculate CGPA to get your CGPA and current degree.
 
-# --The End--
+--The End--
 
-# -- Practice project
+-- Practice project
       -- Made with 💌
          -- By KingShow
 <div id="header" align="center">
@@ -55,4 +55,4 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 
 - :zap: In my free time, I recreate a design.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://ng.linkedin.com/in/kingdavid-christian-64a367243)
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-KingShow-blue?style=flat&logo=Linkedin&logoColor=white)](https://ng.linkedin.com/in/kingdavid-christian-64a367243)
