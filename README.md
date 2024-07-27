@@ -57,3 +57,4 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 - :zap: In my free time, I recreate a design.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-KingShow-blue?style=flat&logo=Linkedin&logoColor=white)](https://ng.linkedin.com/in/kingdavid-christian-64a367243)
+### :hammer_and_wrench: Languages and Tools :
