@@ -66,6 +66,7 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
 </div>
 ---
+
 ### :fire: My Stats :
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=christiankaycee&theme=dark&background=000000)](https://git.io/streak-stats)
