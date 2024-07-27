@@ -49,3 +49,10 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
+- :telescope: I’m a frontend web developer.
+
+- :seedling: Improving my problem solving skill.
+
+- :zap: In my free time, I recreate a design.
+
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://ng.linkedin.com/in/kingdavid-christian-64a367243)
