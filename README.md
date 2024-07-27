@@ -1,7 +1,7 @@
 # CGPA-Calculator
 For calculating your Cummulative Grade Point Average ( Currently only for U2022 set )
 
-# --How to use--
+# How to use
 
 - Enter your score for each course.
 
@@ -12,6 +12,7 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 --The End--
 
 -- Practice project
+
       -- Made with 💌
          -- By KingShow
 <div id="header" align="center">
