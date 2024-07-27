@@ -74,4 +74,4 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 ---
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
-
+<!-- latest blog posts -->
