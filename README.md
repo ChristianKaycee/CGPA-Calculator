@@ -26,7 +26,12 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
        Badge"/>
   </a>
     <a href="https://m.facebook.com/kayceee.christian//">
-    <img src="https://img.shields.io/badge/Whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
+    <img src="https://img.shields.io/badge/Whatsap-black?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
        Badge"/>
   </a>
+  <a href="https://snapchat.com/t/ViivkURS/">
+    <img src="https://img.shields.io/badge/Snapchat-yellow?style=for-the-badge&logo=snapchat&logoColor=white" alt="Snapchat
+       Badge"/>
+  </a>
+
 </div>
