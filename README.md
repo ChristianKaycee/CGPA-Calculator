@@ -8,5 +8,5 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 
 --The End--
 -- Practice project
--- Made with 💌
-    -- By KingShow
+      -- Made with 💌
+         -- By KingShow
