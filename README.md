@@ -10,6 +10,9 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 -- Practice project
       -- Made with 💌
          -- By KingShow
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
 <div id="badges">
   <a href="https://ng.linkedin.com/in/kingdavid-christian-64a367243">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -26,7 +29,7 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
        Badge"/>
   </a>
     <a href="https://m.facebook.com/kayceee.christian//">
-    <img src="https://img.shields.io/badge/Whatsap-black?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
+    <img src="https://img.shields.io/badge/whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
        Badge"/>
   </a>
   <a href="https://snapchat.com/t/ViivkURS/">
