@@ -49,6 +49,7 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
+
 - :telescope: I’m a frontend web developer.
 
 - :seedling: Improving my problem solving skill.
