@@ -36,5 +36,8 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
     <img src="https://img.shields.io/badge/Snapchat-yellow?style=for-the-badge&logo=snapchat&logoColor=white" alt="Snapchat
        Badge"/>
   </a>
-
 </div>
+<h1>
+  Konnichiwa minna
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
