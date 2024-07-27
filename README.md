@@ -33,7 +33,7 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
     <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook
        Badge"/>
   </a>
-    <a href="https://m.facebook.com/kayceee.christian//">
+    <a href="https://wa.me/message/75AQBKS6MMUHH1/">
     <img src="https://img.shields.io/badge/whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
        Badge"/>
   </a>
@@ -57,9 +57,9 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 - :zap: In my free time, I recreate a design.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-KingShow-blue?style=flat&logo=Linkedin&logoColor=white)](https://ng.linkedin.com/in/kingdavid-christian-64a367243)
----
-### :hammer_and_wrench: Languages and Tools :
 
+### :hammer_and_wrench: Languages and Tools :
+---
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -70,8 +70,6 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 ---
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=christiankaycee&theme=dark&background=000000)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=christiankaycee)](https://github.com/anuraghazra/github-readme-stats)
----
 ### :writing_hand: Blog Posts :
 ---
 <!-- BLOG-POST-LIST:START -->
