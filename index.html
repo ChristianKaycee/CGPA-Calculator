@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>web practice 26</title>
+</head>
+<body>
+    <header>
+        <img src="./fontawesome/svgs/regular/star.svg" alt="star" class="star">
+        <p class="logo">KingShow</p>
+    </header>
+    <section class="showcase">
+        <h1>Simple GPA calculator</h1>
+        <code>This was created for <mark>Computer Science</mark> U2022, so it only contains the courses offered then, I might update it later to add other courses.</code>
+    </section>
+    <div class="container">
+        <p class="head">Year 1 - 1st semester</p>
+        <form class="form-1">
+            <div class="title">
+                <p class="course">COURSE CODE</p>
+                <p class="score">SCORE</p>
+                <p class="cu">CU</p>
+            </div>
+            <div class="row">
+                <label for="chem130" class="course">CHM130.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="chem130">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="csc180" class="course">CSC180.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc180">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="fsb101" class="course">FSB101.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="fsb101">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="ges100" class="course">GES100.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="ges100">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="ges102" class="course">GES102.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="ges102">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="mth110" class="course">MTH110.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth110">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="mth120" class="course">MTH120.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth120">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="phy101" class="course">PHY101.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="phy101">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="phy102" class="course">PHY102.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="phy102">
+                <p class="cu">1</p>
+            </div>
+            <div class="row result">
+                <button id="first">Calculate</button>
+                <p id="gpa1">Your GPA for 1st semester is : <span class="gpa-1">0.0</span> </p>
+            </div>
+        </form>
+
+        <p class="head">Year 1 - 2nd semester</p>
+        <form class="form-2">
+            <div class="title">
+                <p class="course">COURSE CODE</p>
+                <p class="score">SCORE</p>
+                <p class="cu">CU</p>
+            </div>
+            <div class="row">
+                <label for="csc182" class="course">CSC182.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc182">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc183" class="course">CSC183.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc183">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="ges101" class="course">GES101.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="ges101">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="ges103" class="course">GES103.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="ges103">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="mth114" class="course">MTH114.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth114">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="mth124" class="course">MTH124.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth124">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="phy103" class="course">PHY103.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="phy103">
+                <p class="cu">1</p>
+            </div>
+            <div class="row">
+                <label for="phy112" class="course">PHY112.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="phy112">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="sta160" class="course">STA160.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="sta160">
+                <p class="cu">3</p>
+            </div>
+            <div class="row result">
+                <button id="second">Calculate</button>
+                <p id="gpa2">Your GPA for 2nd semester is : <span class="gpa-2">0.0</span></p>
+            </div>
+        </form>
+    </div>
+    <p class="cgpa">Your <mark>CGPA</mark> is the summation of your GPA of both 1st and 2nd semester divided by 2.</p>
+    <div class="result">
+        <button id="third">Calculate CGPA</button>
+        <p id="gpa">Your CGPA is : <span class="gpa-3">0.0</span></p>
+    </div>
+    <div class="deg">
+        <p id="degree"></p>
+        <button id="clear">Clear CGPA</button>
+    </div>
+    <code>
+        <pre>
+1st Class - 4.50 - 5.00
+2nd Class - 3.50 - 4.49
+2nd Class - 2.40 - 3.49
+3rd Class - 1.50 - 2.39
+Pass      - 1.00 - 1.49
+        </pre>
+    </code>
+        <footer><p>&copy; Created by KingShowPlays, 2024</p>
+    <a href="mailto:davinateee@gmail.com"><img src="./fontawesome/svgs/regular/address-card.svg" alt="address-card" class="address">Inbox Me</a></footer>
+    <script src="./script.js" defer></script>
+</body>
+</html>
