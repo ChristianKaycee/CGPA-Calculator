@@ -11,7 +11,9 @@ For calculating your Cummulative Grade Point Average ( Currently only for U2022 
 
 --The End--
 
--- Practice project
+# Practice project
+---
+<a href="https://christiankaycee.github.io/CGPA-Calculator/">Live Site Link</a>
 
       -- Made with 💌
          -- By KingShow
