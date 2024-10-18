@@ -1,13 +1,40 @@
+// For next cell on enter
+const inputSelectors = ['.form-1 input', '.form-2 input', '.form-3 input', '.form-4 input'];
+let allInputs = [];
+
+inputSelectors.forEach((selector) => {
+    allInputs = allInputs.concat(Array.from(document.querySelectorAll(selector)));
+});
+
+allInputs.forEach((input, index) => {
+    input.addEventListener('input', () => {
+        if (input.value.length === 2 && index < allInputs.length - 1) {
+            allInputs[index + 1].focus();
+        }
+    });
+
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace' && input.value.length === 0 && index > 0) {
+            allInputs[index - 1].focus();
+        } else if (e.key === 'Enter' && input.value.length > 0 && index < allInputs.length - 1) {
+            allInputs[index + 1].focus();
+        }
+    });
+});
+
 // Function to display the courses table
 function displayTab(formOn, formBox) {
     formOn.addEventListener("click", (e) => {
-        //formBox.classList.remove("form-show");
         e.preventDefault();
         formBox.classList.toggle("form-show");
         formOn.scrollIntoView({ behaviour: 'smooth' });
-      //  document.querySelector("formOn+.mypointer").classList.add("curr");
-    })
+    });
 }
+["formone","formtwo","formthree","formfour"].forEach((id,index)=>{
+    document.querySelector(`#${id}`).addEventListener("click",()=>{
+        document.querySelector(`#${id} + .mypointer`).classList.toggle("current-pointer");
+    })
+})
 let formOnOne = document.getElementById("formone");
 let formOnTwo = document.getElementById("formtwo");
 let formOnThree = document.getElementById("formthree");
@@ -181,7 +208,7 @@ function circleLoad() {
     console.log("current", currentHeight);
     let loadHeight = currentHeight * 360;
     console.log("load", loadHeight);
-    btn.style.background = `conic-gradient(rgb(19, 177, 239) ${loadHeight}deg, transparent ${loadHeight}deg)`;
+    btn.style.background = `conic-gradient(rgb(255, 0, 0) ${loadHeight}deg, transparent ${loadHeight}deg)`;
 }
 
 window.addEventListener("scroll", circleLoad);
