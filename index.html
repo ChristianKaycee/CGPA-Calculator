@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>web practice 26</title>
 </head>
+
 <body>
     <header>
         <img src="./fontawesome/svgs/regular/star.svg" alt="star" class="star">
@@ -13,10 +15,12 @@
     </header>
     <section class="showcase">
         <h1>Simple GPA calculator</h1>
-        <code>This was created for <mark>Computer Science</mark> U2022, so it only contains the courses offered then, I might update it later to add other courses :) </code>
+        <code>This was created for <mark>Computer Science</mark> U2022, so it only contains the courses offered then, <b>none of your data is saved here :)</b> </code>
     </section>
     <div class="container">
-        <p class="head">Year 1 - 1st semester</p>
+        <!-- Year 1 -->
+         
+        <div class="point"><p class="head" id="formone">Year 1 - 1st semester</p> <span class="mypointer">></span></div>
         <form class="form-1">
             <div class="title">
                 <p class="course">COURSE CODE</p>
@@ -74,7 +78,7 @@
             </div>
         </form>
 
-        <p class="head">Year 1 - 2nd semester</p>
+        <div class="point"><p class="head" id="formtwo">Year 1 - 2nd semester</p> <span class="mypointer">></span></div>
         <form class="form-2">
             <div class="title">
                 <p class="course">COURSE CODE</p>
@@ -131,27 +135,182 @@
                 <p id="gpa2">Your GPA for 2nd semester is : <span class="gpa-2">0.0</span></p>
             </div>
         </form>
+
+        <!-- Year 2 -->
+        <div class="point"><p class="head" id="formthree">Year 2 - 1st semester</p> <span class="mypointer">></span></div>
+        <form class="form-3">
+            <div class="title">
+                <p class="course">COURSE CODE</p>
+                <p class="score">SCORE</p>
+                <p class="cu">CU</p>
+            </div>
+            <div class="row">
+                <label for="mth270" class="course">MTH270.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth270">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="sta260" class="course">STA260.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="sta260">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="csc280" class="course">CSC280.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc280">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="csc281" class="course">CSC281.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc281">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc283" class="course">CSC283.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc283">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc284" class="course">CSC284.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc284">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc288" class="course">CSC288.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc288">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="mth210" class="course">MTH210.1</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth210">
+                <p class="cu">3</p>
+            </div>
+            <div class="row result">
+                <button id="third">Calculate</button>
+                <p id="gpa3">Your GPA for 1st semester is : <span class="gpa-3">0.0</span> </p>
+            </div>
+        </form>
+
+        <div class="point"><p class="head" id="formfour">Year 2 - 2nd semester</p> <span class="mypointer">></span></div>
+        <form class="form-4">
+            <div class="title">
+                <p class="course">COURSE CODE</p>
+                <p class="score">SCORE</p>
+                <p class="cu">CU</p>
+            </div>
+            <div class="row">
+                <label for="csc282" class="course">CSC282.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc282">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc285" class="course">CSC285.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc285">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc286" class="course">CSC286.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc286">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="csc287" class="course">CSC287.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="csc287">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="fsc2c1" class="course">FSC2C1.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="fsc2c1">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="mth224" class="course">MTH224.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth224">
+                <p class="cu">2</p>
+            </div>
+            <div class="row">
+                <label for="mth250" class="course">MTH250.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="mth250">
+                <p class="cu">3</p>
+            </div>
+            <div class="row">
+                <label for="sta262" class="course">STA262.2</label>
+                <input type="number" class="score" max="100" min="0" placeholder="Enter Score" id="sta262">
+                <p class="cu">3</p>
+            </div>
+            <div class="row result">
+                <button id="fourth">Calculate</button>
+                <p id="gpa4">Your GPA for 2nd semester is : <span class="gpa-4">0.0</span></p>
+            </div>
+        </form>
     </div>
     <p class="cgpa">Your <mark>CGPA</mark> is the summation of your GPA of both 1st and 2nd semester divided by 2.</p>
     <div class="result">
-        <button id="third">Calculate CGPA</button>
-        <p id="gpa">Your CGPA is : <span class="gpa-3">0.0</span></p>
+        <button id="final">Calculate CGPA</button>
+        <div class="tabViewBox">
+            <p>Would you also like to view it in a table format ?</p>
+            <div>
+                <button class="noView">No</button>
+                <button class="yesView">Yes</button>
+            </div>
+        </div>
+        <p id="gpa">Your CGPA is : <span class="gpa-final">0.0</span></p>
     </div>
     <div class="deg">
         <p id="degree"></p>
         <button id="clear">Clear CGPA</button>
     </div>
+    <table class="table-view">
+        <tr class="table-head">
+            <td colspan="3">Table View</td>
+            <td class="close-table" colspan="1">&times;</td>
+        </tr>
+        <tr class="head-row">
+            <th colspan="2">Year 1</th>
+            <th colspan="2">Year 2</th>
+        </tr>
+        <tr class="semesters">
+            <td>1st Semester</td>
+            <td>2nd Semester</td>
+            <td>1st Semester</td>
+            <td>2nd Semester</td>
+        </tr>
+        <tr>
+            <td class="fory11">0</td>
+            <td class="fory12">0</td>
+            <td class="fory21">0</td>
+            <td class="fory22">0</td>
+        </tr>
+        <tr>
+            <th colspan="4">CGPA</th>
+        </tr>
+        <tr>
+            <td class="cgfory1" colspan="2">0</td>
+            <td class="cgfory2" colspan="2">0</td>
+        </tr>
+        <tr>
+            <th colspan="4">Final CGPA</th>
+        </tr>
+        <tr>
+            <td class="myCgpa" colspan="4">0</td>
+        </tr>
+    </table>
     <code>
         <pre>
-1st Class - 4.50 - 5.00
-2nd Class - 3.50 - 4.49
-2nd Class - 2.40 - 3.49
-3rd Class - 1.50 - 2.39
-Pass      - 1.00 - 1.49
+1st Class   - 4.50 - 5.00
+2nd Class U - 3.50 - 4.49
+2nd Class L - 2.40 - 3.49
+3rd Class   - 1.50 - 2.39
+Pass        - 1.00 - 1.49
         </pre>
     </code>
-        <footer><p>&copy; Created by KingShowPlays, 2024</p>
-    <a href="mailto:davinateee@gmail.com"><img src="./fontawesome/svgs/regular/address-card.svg" alt="address-card" class="address">Inbox Me</a></footer>
+    <div class="btn"><p class="up">&UpArrow;</p>
+    </div>
+    <footer>
+        <p>&copy; Created by KingShowPlays, 2024</p>
+        <a href="mailto:davinateee@gmail.com"><img src="./fontawesome/svgs/regular/address-card.svg" alt="address-card"
+                class="address">Inbox Me</a>
+    </footer>
     <script src="./script.js" defer></script>
 </body>
+
 </html>
