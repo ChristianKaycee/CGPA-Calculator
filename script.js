@@ -7,10 +7,12 @@ inputSelectors.forEach((selector) => {
 });
 
 allInputs.forEach((input, index) => {
-    input.addEventListener('input', () => {
+    input.addEventListener('input', (e) => {
+        this.value = this.value.replace(/\D/g, '');
         if (input.value.length === 2 && index < allInputs.length - 1) {
             allInputs[index + 1].focus();
         }
+    });
     });
 
     input.addEventListener('keydown', (e) => {
