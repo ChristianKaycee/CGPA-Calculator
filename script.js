@@ -8,7 +8,7 @@ inputSelectors.forEach((selector) => {
 
 allInputs.forEach((input, index) => {
     input.addEventListener('input', (event) => {
-        this.value = this.value.replace(/\D/g, '');
+      
         if (input.value.length === 2 && index < allInputs.length - 1) {
             allInputs[index + 1].focus();
         }
