@@ -5,14 +5,21 @@ let allInputs = [];
 inputSelectors.forEach((selector) => {
     allInputs = allInputs.concat(Array.from(document.querySelectorAll(selector)));
 });
-
+// Clear all cells
+function clearAll() {
+    allInputs.forEach(input => {
+        input.value = '';
+    });
+}
+// For next cell on enter
 allInputs.forEach((input, index) => {
     input.addEventListener('input', () => {
+        input.value = input.value.replace(/\D/g,'');
         if (input.value.length === 2 && index < allInputs.length - 1) {
             allInputs[index + 1].focus();
         }
     });
-
+// For previous cell on backspace
     input.addEventListener('keydown', (e) => {
         if (e.key === 'Backspace' && input.value.length === 0 && index > 0) {
             allInputs[index - 1].focus();
@@ -33,8 +40,8 @@ function displayTab(formOn, formBox) {
 ["formone","formtwo","formthree","formfour"].forEach((id,index)=>{
     document.querySelector(`#${id}`).addEventListener("click",()=>{
         document.querySelector(`#${id} + .mypointer`).classList.toggle("current-pointer");
-    })
-})
+    });
+});
 let formOnOne = document.getElementById("formone");
 let formOnTwo = document.getElementById("formtwo");
 let formOnThree = document.getElementById("formthree");
@@ -145,9 +152,9 @@ document.getElementById('final').addEventListener('click', function (event) {
     yearTwoSecond.innerHTML = gpa4;
 
     // Calculate CGPAs for each year and the overall CGPA
-    yearOneCgpa.innerHTML = ((parseFloat(gpa1) + parseFloat(gpa2)) / 2).toFixed(2);
-    yearTwoCgpa.innerHTML = ((parseFloat(gpa3) + parseFloat(gpa4)) / 2).toFixed(2);
-    myCurrentCgpa.innerHTML = ((parseFloat(yearOneCgpa.textContent) + parseFloat(yearTwoCgpa.textContent)) / 2).toFixed(2);
+    yearOneCgpa.innerHTML = ((parseFloat(gpa1) + parseFloat(gpa2)) / 2).toFixed(3);
+    yearTwoCgpa.innerHTML = ((parseFloat(gpa3) + parseFloat(gpa4)) / 2).toFixed(3);
+    myCurrentCgpa.innerHTML = ((parseFloat(yearOneCgpa.textContent) + parseFloat(yearTwoCgpa.textContent)) / 2).toFixed(3);
 
     // Calculate the overall CGPA and update the degree classification
     let cgpa = (parseFloat(gpa1) + parseFloat(gpa2) + parseFloat(gpa3) + parseFloat(gpa4)) / 4;
@@ -177,11 +184,17 @@ closeTable.addEventListener("click", (e) => {
         tableView.classList.remove("show-table");
     }
 });
-
+// Clear all values and table
 document.querySelector("#clear").addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".gpa-final").textContent = "";
+    clearAll();
+    document.getElementById("header").scrollIntoView({ behaviour: 'smooth' });
+//    tableView.classList.remove("show-table");
     document.querySelector("#degree").textContent = "";
+    ['fory11','fory12','fory21','fory22','cgfory1','cgfory2','myCgpa','gpa-final','gpa-1','gpa-2','gpa-3','gpa-4'].forEach(gp =>{
+        let gpa = document.querySelector(`.${gp}`);
+        gpa.textContent = "0.0";
+    })
 });
 
 // For scroll up
