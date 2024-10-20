@@ -2,7 +2,9 @@
     --Grey: hsl(0, 0%, 20%);
     --Dark-Grey: hsl(0, 0%, 12%);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -281,11 +283,17 @@ a .address {
     cursor: pointer;
     font-size: 2em;
     transform: rotate(270deg);
+    color: black;
     transition: .3s;
+}
+.mypointer:hover{
+    transform: rotate(360deg);
+    color: rgb(15, 13, 13);
 }
 
 .current-pointer{
     transform: rotate(90deg);
+    color: rgb(71, 71, 71);
 }
 
 .form-1,
@@ -362,7 +370,10 @@ footer a {
     cursor: pointer;
     transition: .3s;
 }
-
+footer p{
+    display: flex;
+    gap: .3em;
+}
 @media (max-width:680px) {
     #final {
         width: 50%;
