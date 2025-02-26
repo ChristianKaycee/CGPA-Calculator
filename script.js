@@ -244,7 +244,12 @@ let imageData = '';
 function captureTable() {
     let table = document.querySelector(".table-view");
 
-    html2canvas(table).then(canvas => {
+    html2canvas(table,{
+        scale:2,
+        width: table.scrollWidth,
+        height: table.scrollHeight,
+        useCORS: true
+    }).then(canvas => {
         imageData = canvas.toDataURL("image/png");
         
         // Display the image
