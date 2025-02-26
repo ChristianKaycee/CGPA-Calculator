@@ -164,7 +164,7 @@ document.getElementById('final').addEventListener('click', function (event) {
     // Show or hide the table view based on its current display state
     if (window.getComputedStyle(tableView).display !== 'flex') {
         tabViewBox.classList.add("show-tabBox");
-        document.querySelector(".convert").style.display ="flex";
+        document.querySelector(".convert").style.display ="block";
     }
 });
 
@@ -173,7 +173,7 @@ tabViewYes.addEventListener("click", (e) => {
     e.preventDefault();
     tableView.classList.add("show-table");
     tabViewBox.classList.remove("show-tabBox");
-    document.querySelector(".convert").style.display ="flex";
+    document.querySelector(".convert").style.display ="block";
 });
 
 tabViewNo.addEventListener("click", (e) => {
