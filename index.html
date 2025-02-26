@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <title>KingShow CGPA Calc</title>
 </head>
 
@@ -293,6 +294,12 @@
         <tr>
             <td class="myCgpa" colspan="4">0</td>
         </tr>
+        <div class = "convert">
+            <button onclick="captureTable()">Convert to Image</button>
+            <button id="shareButton" style="display: none;">Share Image</button>
+            <br>
+            <img id="tableImage" style="margin-top: 10px; display: none;" />
+        </div>
     </table>
     <code>
         <pre>
