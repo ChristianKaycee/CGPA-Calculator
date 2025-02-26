@@ -164,6 +164,7 @@ document.getElementById('final').addEventListener('click', function (event) {
     // Show or hide the table view based on its current display state
     if (window.getComputedStyle(tableView).display !== 'flex') {
         tabViewBox.classList.add("show-tabBox");
+        document.querySelector(".convert").style.display ="flex";
     }
 });
 
@@ -172,16 +173,19 @@ tabViewYes.addEventListener("click", (e) => {
     e.preventDefault();
     tableView.classList.add("show-table");
     tabViewBox.classList.remove("show-tabBox");
+    document.querySelector(".convert").style.display ="flex";
 });
 
 tabViewNo.addEventListener("click", (e) => {
     e.preventDefault();
     tabViewBox.classList.remove("show-tabBox");
+    document.querySelector(".convert").style.display ="none";
 });
 
 closeTable.addEventListener("click", (e) => {
     if (tableView) {
         tableView.classList.remove("show-table");
+    document.querySelector(".convert").style.display ="none";
     }
 });
 // Clear all values and table
@@ -189,6 +193,7 @@ document.querySelector("#clear").addEventListener("click", function (e) {
     e.preventDefault();
     clearAll();
     document.getElementById("header").scrollIntoView({ behaviour: 'smooth' });
+    document.querySelector(".convert").style.display ="none";
 //    tableView.classList.remove("show-table");
     document.querySelector("#degree").textContent = "";
     ['fory11','fory12','fory21','fory22','cgfory1','cgfory2','myCgpa','gpa-final','gpa-1','gpa-2','gpa-3','gpa-4'].forEach(gp =>{
