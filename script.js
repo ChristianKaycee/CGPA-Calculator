@@ -234,3 +234,39 @@ up.addEventListener("click", () => {
         behavior: "smooth" // Optional, for smooth scrolling effect
     });
 });
+let imageData = '';
+
+function captureTable() {
+    let table = document.querySelector(".table-view");
+
+    html2canvas(table).then(canvas => {
+        imageData = canvas.toDataURL("image/png");
+        
+        // Display the image
+        let img = document.getElementById("tableImage");
+        img.src = imageData;
+        img.style.display = "block";
+
+        // Show the share button
+        document.getElementById("shareButton").style.display = "inline-block";
+    });
+}
+
+document.getElementById("shareButton").addEventListener("click", async function () {
+    if (navigator.share) {
+        try {
+            let blob = await fetch(imageData).then(res => res.blob());
+            let file = new File([blob], "table-image.png", { type: "image/png" });
+
+            await navigator.share({
+                title: "Shared Table Image",
+                text: "Check out this table!",
+                files: [file]
+            });
+        } catch (error) {
+            console.error("Error sharing:", error);
+        }
+    } else {
+        alert("Sharing not supported in this browser.");
+    }
+});
